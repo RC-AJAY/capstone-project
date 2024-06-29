@@ -1,0 +1,7 @@
+version: '3'
+services:
+    capstone:
+      image: capstone
+      ports:
+        - "8083:80"
+      restart: unless-stopped
