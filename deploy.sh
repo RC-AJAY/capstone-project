@@ -20,4 +20,3 @@ elif [[ $GIT_BRANCH == "origin/main" ]]; then
 else
         echo "failed"
 fi
-
